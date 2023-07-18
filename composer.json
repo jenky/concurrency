@@ -1,0 +1,70 @@
+{
+    "name": "jenky/concurrency",
+    "description": "Send concurrent requests for Atlas",
+    "keywords": [
+        "jenky",
+        "pool",
+        "Concurrency",
+        "concurrent-requests",
+        "parallel-requests",
+        "async",
+        "await"
+    ],
+    "homepage": "https://github.com/jenky/concurrency",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lynh",
+            "email": "contact@lynh.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "psr/http-client": "^1.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.15",
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jenky\\Concurrency\\Pool\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jenky\\Concurrency\\Pool\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "analyse": [
+            "vendor/bin/phpstan analyse"
+        ],
+        "cs": [
+            "vendor/bin/php-cs-fixer fix"
+        ],
+        "test": [
+            "vendor/bin/phpunit"
+        ],
+        "coverage": [
+            "vendor/bin/phpunit --coverage"
+        ],
+        "check": [
+            "@cs --dry-run",
+            "@analyse",
+            "@test"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
