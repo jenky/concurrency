@@ -11,9 +11,11 @@ final class NullPool implements PoolInterface
 {
     use PoolTrait;
 
-    public function __construct(
-        private array $responses = []
-    ) {
+    private $responses = [];
+
+    public function __construct(array $responses = [])
+    {
+        $this->responses = $responses;
     }
 
     public function send(iterable $requests): array

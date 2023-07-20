@@ -6,10 +6,16 @@ namespace Jenky\Concurrency\Pool\Tests;
 
 final class DummyRequest
 {
+    private $uri;
+
+    private $method;
+
     public function __construct(
-        private string $uri = 'https://example.com',
-        private string $method = 'GET'
+        string $uri = 'https://example.com',
+        string $method = 'GET'
     ) {
+        $this->uri = $uri;
+        $this->method = $method;
     }
 
     public function method(): string
