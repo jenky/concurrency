@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Jenky\Concurrency\Pool\Tests;
+namespace Jenky\Concurrency\Tests;
 
 final class DummyRequest
 {

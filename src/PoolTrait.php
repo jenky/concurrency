@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Jenky\Concurrency\Pool;
+namespace Jenky\Concurrency;
 
 trait PoolTrait
 {

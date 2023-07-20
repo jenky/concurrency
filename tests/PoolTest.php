@@ -1,6 +1,6 @@
 <?php
 
-namespace Jenky\Concurrency\Pool\Tests;
+namespace Jenky\Concurrency\Tests;
 
 use PHPUnit\Framework\TestCase;
 

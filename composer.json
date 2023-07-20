@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jenky\\Concurrency\\Pool\\": "src"
+            "Jenky\\Concurrency\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jenky\\Concurrency\\Pool\\Tests\\": "tests"
+            "Jenky\\Concurrency\\Tests\\": "tests"
         }
     },
     "scripts": {

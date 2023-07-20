@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Jenky\Concurrency\Pool\Tests;
+namespace Jenky\Concurrency\Tests;
 
-use Jenky\Concurrency\Pool\PoolInterface;
-use Jenky\Concurrency\Pool\PoolTrait;
+use Jenky\Concurrency\PoolInterface;
+use Jenky\Concurrency\PoolTrait;
 
 final class NullPool implements PoolInterface
 {
