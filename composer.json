@@ -1,10 +1,10 @@
 {
     "name": "jenky/concurrency",
-    "description": "Send concurrent requests for Atlas",
+    "description": "Common interface for sending concurrent HTTP requests",
     "keywords": [
         "jenky",
         "pool",
-        "Concurrency",
+        "concurrency",
         "concurrent-requests",
         "parallel-requests",
         "async",
