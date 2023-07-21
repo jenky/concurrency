@@ -7,19 +7,9 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE.md)
 
-A powerful tool that allows you to send multiple HTTP requests simultaneously.
+This repository holds all the common code related to send multiple requests concurrently using pool.
 
-## Installation
-
-You can install the package via composer:
-
-```bash
-composer require jenky/atlas-pool
-```
-
-## Usage
-
-See the [documentation](https://jenky.github.io/atlas) for detailed installation and usage instructions.
+Note that this is not a Pool implementation of its own. It is merely abstractions that describe HTTP Pool.
 
 ## Testing
 
@@ -48,20 +38,20 @@ If you discover any security related issues, please email jenky.w0w@gmail.com in
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/jenky/atlas-pool.svg?style=for-the-badge
+[ico-version]: https://img.shields.io/packagist/v/jenky/concurrency.svg?style=for-the-badge
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge
-[ico-travis]: https://img.shields.io/travis/jenky/atlas-pool/master.svg?style=for-the-badge
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/jenky/atlas-pool.svg?style=for-the-badge
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/jenky/atlas-pool.svg?style=for-the-badge
-[ico-gh-actions]: https://img.shields.io/github/actions/workflow/status/jenky/atlas-pool/testing.yml?branch=main&label=actions&logo=github&style=for-the-badge
-[ico-codecov]: https://img.shields.io/codecov/c/github/jenky/atlas-pool?logo=codecov&style=for-the-badge
-[ico-downloads]: https://img.shields.io/packagist/dt/jenky/atlas-pool.svg?style=for-the-badge
+[ico-travis]: https://img.shields.io/travis/jenky/concurrency/master.svg?style=for-the-badge
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/jenky/concurrency.svg?style=for-the-badge
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/jenky/concurrency.svg?style=for-the-badge
+[ico-gh-actions]: https://img.shields.io/github/actions/workflow/status/jenky/concurrency/testing.yml?branch=main&label=actions&logo=github&style=for-the-badge
+[ico-codecov]: https://img.shields.io/codecov/c/github/jenky/concurrency?logo=codecov&style=for-the-badge
+[ico-downloads]: https://img.shields.io/packagist/dt/jenky/concurrency.svg?style=for-the-badge
 
-[link-packagist]: https://packagist.org/packages/jenky/atlas-pool
-[link-travis]: https://travis-ci.org/jenky/atlas-pool
-[link-scrutinizer]: https://scrutinizer-ci.com/g/jenky/atlas-pool/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/jenky/atlas-pool
-[link-gh-actions]: https://github.com/jenky/atlas-pool
-[link-codecov]: https://codecov.io/gh/jenky/atlas-pool
-[link-downloads]: https://packagist.org/packages/jenky/atlas-pool
+[link-packagist]: https://packagist.org/packages/jenky/concurrency
+[link-travis]: https://travis-ci.org/jenky/concurrency
+[link-scrutinizer]: https://scrutinizer-ci.com/g/jenky/concurrency/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/jenky/concurrency
+[link-gh-actions]: https://github.com/jenky/concurrency
+[link-codecov]: https://codecov.io/gh/jenky/concurrency
+[link-downloads]: https://packagist.org/packages/jenky/concurrency
 
